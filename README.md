@@ -1,4 +1,4 @@
-<h1>¡Bienvenidas y bienvenidos a nuestra aplicación de encriptación de textos!</h1>
+<h1>¡Bienvenidos a nuestra aplicación de encriptación de textos!</h1>
 
 Nuestra aplicación convierte textos en mensajes secretos mediante un sistema de encriptación sencillo. Transforma letras minúsculas según las siguientes reglas:
 
