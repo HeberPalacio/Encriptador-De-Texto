@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    
+    <!-- Sección de encabezado -->
+    <header>
+        <a href="#" aria-label="Ir al inicio">
+            <img src="./img/logo.svg" alt="Logo de Encriptador" class="logo">
+        </a>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí" aria-label="Texto a encriptar o desencriptar"></textarea>
+            <div class="encriptadorAviso">
+                <img src="./img/aviso.svg" alt="Imagen de aviso" class="imagenAviso">
+                <p class="textoAviso">Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="contenedorEncriptador">
+                <button type="button" class="botonEncriptar">Encriptar</button>
+                <button type="button" class="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="contenedorTarjeta">
+                <img src="./img/muñeco.svg" alt="Imagen de muñeco" class="imgMuneco">
+                <p class="textoUno">Ningún mensaje fue encontrado.</p>
+                <p class="textoDos">Ingrese el texto que deseas encriptar o desencriptar.</p>
+            </div>
+            <textarea class="evaluar" readonly aria-label="Texto resultado"></textarea>
+            <button type="button" class="botonCopiar">Copiar</button>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
